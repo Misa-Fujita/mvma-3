@@ -767,6 +767,18 @@ height: 21px;
   margin: 1.2rem 0 0 0;
 }
 
+@media (min-width: 768px) {
+  .info-box-openhouse {
+    width: 350px;
+    padding: 0.6rem 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid rgba(61,150,108,0.25);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 1.2rem 0 0 0;
+  }
+}
+
 .info-box-text-openhouse {
 font-size: 1em;
 font-weight: 500;
@@ -774,7 +786,7 @@ letter-spacing: 0.1em;
 font-feature-settings: "palt";
 }
 
-/* PC繝ｻ繧ｿ繝悶Ξ繝�ヨ */
+/* pad */
 @media (min-width: 768px) {
 .tour-btn-text-openhouse {
     text-align: center;
