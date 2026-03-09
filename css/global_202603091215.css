@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box; 
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; 
+}
+
+body {
+  font-family: 'Noto Sans JP' , sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: 
+    url('../img/catch.png'),
+    url('../img/bg_illustration.png'),
+    url('../img/bg_illustration.gif');
+  background-repeat: 
+    no-repeat,
+    no-repeat,
+    no-repeat;
+  background-position: 
+    2rem 4rem,
+    center top,
+    center top;
+  background-size: 
+    auto calc(100dvh - 180px),
+    cover,
+    60rem auto;
+  background-attachment:
+    fixed,
+    fixed,
+    fixed;
+  z-index: -10;
+}
+
+.noto-sans-jp {
+  font-family: 'Noto Sans JP' , sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-feature-settings: "palt";
+  text-spacing-trim: normal;
+}
+
+.roboto-condensed {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.josefin-sans-en-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* .syne {
+  font-family: "Syne";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+} */
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* スマホ時に背景グラフィック除去 */
+@media (max-width: 780px){
+    body {
+    background-image: url('../img/bg_illustration.gif');
+    background-repeat: no-repeat;
+    background-position: center 3.2rem;
+    background-size: 110% auto; 
+    background-attachment: scroll;
+  }
+}
